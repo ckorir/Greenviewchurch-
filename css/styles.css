@@ -1,0 +1,205 @@
+body {
+  background-color: #EEEEEE;
+}
+
+a, li, ul {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.navcontainer .logo {
+  margin-right: auto;
+}
+
+.navcontainer .logo img {
+  height: 60px;
+}
+
+.navcontainer .navlinks ul {
+  background-color: #C0842B;
+  position: absolute;
+  width: 60%;
+  z-index: 1;
+  top: 73px;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navcontainer .navlinks ul li {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.hero {
+  padding: 10px 10px;
+  padding-bottom: 230px;
+}
+
+.hero h1 {
+  position: relative;
+  text-align: center;
+  top: 90px;
+  color: #feeeeee5;
+}
+
+.home {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(19, 52, 110, 0.105)), to(rgba(0, 88, 214, 0.275))), url("../img/choir.jpg");
+  background: linear-gradient(rgba(19, 52, 110, 0.105), rgba(0, 88, 214, 0.275)), url("../img/choir.jpg");
+  background-size: cover;
+  background-position-x: 20%;
+}
+
+.events {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(19, 52, 110, 0.105)), to(rgba(0, 88, 214, 0.275))), url("../img/worship2.jpg");
+  background: linear-gradient(rgba(19, 52, 110, 0.105), rgba(0, 88, 214, 0.275)), url("../img/worship2.jpg");
+  background-size: cover;
+}
+
+.about {
+  background-image: url("../img/cross.jpg");
+  background-size: cover;
+}
+
+.info .bar {
+  background-color: #C0842B;
+  padding: 20px;
+  margin-top: 15%;
+}
+
+.info .bar2 {
+  z-index: -1;
+  position: relative;
+  margin-top: 0%;
+  top: -12em;
+}
+
+.info .cards .imgcard {
+  z-index: 1;
+  position: relative;
+  top: -4em;
+  padding: 95px 50px;
+  width: 18em;
+  margin: auto;
+  background-image: url("../img/worship.jpg");
+  background-size: cover;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+}
+
+.info .cards .infocard {
+  position: relative;
+  top: -8em;
+  padding: 75px 50px;
+  background-color: #5D6A7D;
+  color: #feeeeee5;
+  width: 21em;
+  margin: auto;
+  margin-bottom: -5%;
+}
+
+.info .cards .infocard h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.info .cards .infocard p {
+  line-height: 1.4em;
+  font-size: 17px;
+}
+
+.info .cards .servicecard .img1 {
+  background-image: url("../img/worship.jpg");
+}
+
+.info .cards .locationcard .img2 {
+  background-image: url("../img/map.jpg");
+}
+
+.info .cards .biblestudycard .img3 {
+  background-image: url("../img/bstudy.jpg");
+}
+
+.info .cards .weddingcard {
+  background-color: #5D6A7D;
+}
+
+.info .cards .weddingcard .infocard {
+  background-color: #C0842B;
+}
+
+.info .cards .weddingcard .img4 {
+  background-image: url("../img/marriage.jpg");
+}
+
+.info .cards .youthservicecard .img5 {
+  background-image: url("../img/youth.jpg");
+}
+
+.aboutus {
+  padding: 50px 25px;
+  margin-bottom: 80px;
+}
+
+.aboutus h1 {
+  text-align: center;
+  border-bottom: none;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 25px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.aboutus hr {
+  padding: 1px;
+  background-color: yellowgreen;
+  width: 100px;
+}
+
+.aboutus h1:hover {
+  border-bottom: 3px solid #c0842bde;
+}
+
+.aboutus h1:hover hr {
+  display: none;
+}
+
+footer {
+  background-color: #5D6A7D;
+  margin-top: -5.2em;
+  padding: 20px;
+  text-align: center;
+  line-height: 2em;
+  color: #feeeeee5;
+}
+/*# sourceMappingURL=styles.css.map */
