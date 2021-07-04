@@ -90,6 +90,7 @@ html {
 }
 
 .info .bar {
+  position: relative;
   background-color: #C0842B;
   padding: 20px;
   margin-top: 15%;
@@ -187,5 +188,97 @@ footer {
   text-align: center;
   line-height: 2em;
   color: #feeeeee5;
+}
+
+@media only screen and (min-width: 750px) {
+  .info .bar {
+    top: -2em;
+  }
+  .info .bar2 {
+    top: -16em;
+  }
+  .info .cards .servicecard, .info .cards .locationcard, .info .cards .biblestudycard, .info .cards .youthservicecard
+, .info .cards .weddingcard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4em;
+  }
+  .info .cards .imgcard {
+    padding: 125px 170px;
+    top: -7.5em;
+    left: 2em;
+  }
+  .info .cards .infocard {
+    left: -2em;
+    top: -7.9em;
+    padding: 75px 70px;
+    width: 48em;
+    line-height: 2em;
+    letter-spacing: .03em;
+  }
+  .info .cards .infocard p {
+    position: relative;
+    left: 2em;
+  }
+  .info .cards .weddingcard {
+    width: 100%;
+    height: 420px;
+    margin-bottom: 10.2em;
+    margin-top: -7.7em;
+  }
+  .info .cards .weddingcard .imgcard {
+    top: 0em;
+    left: 4.6em;
+  }
+  .info .cards .weddingcard .infocard {
+    top: -5em;
+    left: -3.5em;
+    padding: 68px 80px;
+  }
+  .info .cards .weddingcard .infocard p {
+    left: 3em;
+    padding: 0 20px;
+  }
+  footer {
+    margin-top: -7.5em;
+  }
+  footer .contacts {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .hero {
+    padding-bottom: 400px;
+  }
+  .hero h1 {
+    top: 170px;
+    font-size: 3em;
+    color: #feeeeef8;
+  }
+  .info .cards .servicecard, .info .cards .locationcard, .info .cards .biblestudycard, .info .cards .youthservicecard
+, .info .cards .weddingcard {
+    width: 70%;
+  }
+  .info .cards .weddingcard {
+    width: 100%;
+  }
+  .info .cards .weddingcard .infocard {
+    width: 25em;
+    left: -6em;
+  }
+  .info .cards .weddingcard .infocard p {
+    left: 0em;
+    padding: 0 20px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

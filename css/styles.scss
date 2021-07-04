@@ -68,7 +68,7 @@
 
 .info{
     .bar{
-        //position: absolute;
+        position: relative;
         background-color: #C0842B;
         padding: 20px;
         margin-top: 15%;
@@ -176,4 +176,129 @@ footer{
     text-align: center;
     line-height: 2em;
     color: #feeeeee5;
+}
+
+@media only screen and (min-width: 750px){
+    .info{
+
+        .bar{
+           top: -2em;
+        }
+
+        .bar2{
+            top: -16em;
+        }
+
+        .cards{
+            .servicecard,.locationcard,.biblestudycard,.youthservicecard
+            ,.weddingcard{
+                display: flex;
+                width: 90%;
+                margin: auto;
+                margin-bottom: 4em;
+            }
+
+            .imgcard{
+                padding: 125px 170px;
+                top: -7.5em;
+                left: 2em;
+            }
+
+            .infocard{
+                left: -2em;
+                top: -7.9em;
+                padding: 75px 70px;
+                width: 48em;
+                line-height: 2em;
+                letter-spacing: .03em;
+                
+                p{
+                    position: relative;
+                    left: 2em;
+
+                }
+            }
+
+            .weddingcard{
+                width: 100%;
+                height: 420px;
+                margin-bottom: 10.2em;
+                margin-top: -7.7em;
+                
+
+
+                .imgcard{
+                   // padding: 125px 90px;
+                    top: 0em;
+                    left: 4.6em;
+                }
+
+                .infocard{
+                    top: -5em;
+                    left: -3.5em;
+                    padding: 68px 80px;
+
+                    p{
+                        left: 3em;
+                        padding: 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        margin-top: -7.5em;
+        
+        .contacts{
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .hero{
+        padding-bottom: 400px;
+
+        h1{
+            top: 170px;
+            font-size: 3em;
+            color: #feeeeef8;
+        }
+
+        .navcontainer{
+            .navlinks{
+               // display: none;
+            }
+        }
+    }
+
+    .info{
+        .cards{
+            .servicecard,.locationcard,.biblestudycard,.youthservicecard
+            ,.weddingcard{
+                width: 70%;
+            }
+
+            .weddingcard{
+                width: 100%;
+
+                .infocard{
+                    width: 25em;
+                    left: -6em;
+
+                    p{
+                        left: 0em;
+                        padding: 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
 }
