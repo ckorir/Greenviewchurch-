@@ -79,8 +79,8 @@ html {
 }
 
 .events {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(19, 52, 110, 0.105)), to(rgba(0, 88, 214, 0.275))), url("../img/worship2.jpg");
-  background: linear-gradient(rgba(19, 52, 110, 0.105), rgba(0, 88, 214, 0.275)), url("../img/worship2.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(19, 52, 110, 0.105)), to(rgba(0, 88, 214, 0.275))), url("../img/prayer.jpg");
+  background: linear-gradient(rgba(19, 52, 110, 0.105), rgba(0, 88, 214, 0.275)), url("../img/prayer.jpg");
   background-size: cover;
 }
 
@@ -172,6 +172,7 @@ html {
 }
 
 .aboutus h1 {
+  position: relative;
   text-align: center;
   border-bottom: none;
   width: 100px;
@@ -249,6 +250,22 @@ footer {
   .info .cards .youthservicecard {
     margin-bottom: -8.2em;
   }
+  .about {
+    background-position-y: 80%;
+    padding-bottom: 28em;
+  }
+  .about h1 {
+    top: 5em;
+  }
+  .aboutus h1 {
+    margin-top: 1.4em;
+  }
+  .aboutus p {
+    width: 40em;
+    margin: auto;
+    margin-top: 3em;
+    line-height: 1.5em;
+  }
   footer {
     margin-top: -3.8em;
   }
@@ -272,6 +289,20 @@ footer {
     font-size: 3em;
     color: #feeeeef8;
   }
+  .about {
+    padding-bottom: 40em;
+  }
+  .about h1 {
+    top: 4.2em;
+  }
+  .aboutus p {
+    font-size: 1.1em;
+    line-height: 1.8em;
+    margin-bottom: 3.8em;
+  }
+  .aboutus h1 {
+    margin-top: 3em;
+  }
   .info .bar2 {
     top: -13em;
   }
@@ -285,6 +316,9 @@ footer {
   .info .cards .weddingcard .infocard {
     left: -2em;
     top: -6em;
+  }
+  .info .cards .weddingcard .infocard p {
+    left: 1em;
   }
 }
 /*# sourceMappingURL=styles.css.map */
