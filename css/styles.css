@@ -192,17 +192,18 @@ footer {
 
 @media only screen and (min-width: 750px) {
   .info .bar {
+    margin-top: 8em;
     top: -2em;
   }
   .info .bar2 {
-    top: -16em;
+    top: -21em;
   }
   .info .cards .servicecard, .info .cards .locationcard, .info .cards .biblestudycard, .info .cards .youthservicecard
 , .info .cards .weddingcard {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 90%;
+    width: 45em;
     margin: auto;
     margin-bottom: 4em;
   }
@@ -213,7 +214,7 @@ footer {
   }
   .info .cards .infocard {
     left: -2em;
-    top: -7.9em;
+    top: -8.5em;
     padding: 75px 70px;
     width: 48em;
     line-height: 2em;
@@ -221,17 +222,20 @@ footer {
   }
   .info .cards .infocard p {
     position: relative;
-    left: 2em;
+    left: 1em;
+  }
+  .info .cards .locationcard {
+    margin-bottom: -8em;
   }
   .info .cards .weddingcard {
-    width: 100%;
+    width: 48em;
     height: 420px;
-    margin-bottom: 10.2em;
+    margin-bottom: 11em;
     margin-top: -7.7em;
   }
   .info .cards .weddingcard .imgcard {
     top: 0em;
-    left: 4.6em;
+    left: 3.6em;
   }
   .info .cards .weddingcard .infocard {
     top: -5em;
@@ -240,10 +244,13 @@ footer {
   }
   .info .cards .weddingcard .infocard p {
     left: 3em;
-    padding: 0 20px;
+    padding: 0 10px;
+  }
+  .info .cards .youthservicecard {
+    margin-bottom: -8.2em;
   }
   footer {
-    margin-top: -7.5em;
+    margin-top: -3.8em;
   }
   footer .contacts {
     margin-top: 15px;
@@ -256,7 +263,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .hero {
     padding-bottom: 400px;
   }
@@ -265,20 +272,19 @@ footer {
     font-size: 3em;
     color: #feeeeef8;
   }
-  .info .cards .servicecard, .info .cards .locationcard, .info .cards .biblestudycard, .info .cards .youthservicecard
-, .info .cards .weddingcard {
-    width: 70%;
+  .info .bar2 {
+    top: -13em;
   }
-  .info .cards .weddingcard {
-    width: 100%;
+  .info .cards .biblestudycard, .info .cards .youthservicecard
+, .info .cards .weddingcard {
+    width: 50em;
+  }
+  .info .cards .servicecard, .info .cards .locationcard {
+    width: 45em;
   }
   .info .cards .weddingcard .infocard {
-    width: 25em;
-    left: -6em;
-  }
-  .info .cards .weddingcard .infocard p {
-    left: 0em;
-    padding: 0 20px;
+    left: -2em;
+    top: -6em;
   }
 }
 /*# sourceMappingURL=styles.css.map */
