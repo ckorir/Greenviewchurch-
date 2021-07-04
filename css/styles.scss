@@ -181,6 +181,12 @@ footer{
 
 @media only screen and (min-width: 750px){
 
+    .navcontainer{
+        .logo{
+            padding-left: 20px;
+        }
+    }
+
    
     .info{
 
@@ -299,11 +305,46 @@ footer{
 @media only screen and (min-width: 1000px){
     .hero{
         padding-bottom: 400px;
+        
 
         h1{
             top: 170px;
             font-size: 3em;
             color: #feeeeef8;
+        }
+
+        .navcontainer{
+            width: 100%;
+            
+            
+            .burger{
+                display: none;
+            }
+
+            .navlinks{
+                //position: relative;
+                //width: 100%\\;
+                
+                
+
+                margin-top: 0%;
+               ul{
+                   //width: 100%;
+                   top: 0;
+                   
+                   flex-direction: row;
+                   background-color:transparent; 
+                   
+
+                   li{
+                    position: relative;
+                    padding: 30px 30px;
+                    //float: left;
+                    left: 10em;
+                    
+                   }
+               }
+            }
         }
 
     }
@@ -312,7 +353,7 @@ footer{
         padding-bottom: 40em;
 
         h1{
-            top: 4.2em;
+            top: 5.2em;
         }
     }
 
@@ -364,7 +405,22 @@ footer{
         }
     }
 
-
-
-
 }
+
+@media only screen and (min-width: 1200px){
+
+    .hero{
+        .navcontainer{
+                .navlinks{
+                    ul{
+                        li{
+                            left: 18em;
+                        }
+                    }
+                }
+            }
+
+    }
+    
+}
+

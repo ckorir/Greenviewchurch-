@@ -6,6 +6,7 @@ a, li, ul {
   text-decoration: none;
   list-style: none;
   color: white;
+  letter-spacing: .3em;
 }
 
 * {
@@ -192,6 +193,9 @@ footer {
 }
 
 @media only screen and (min-width: 750px) {
+  .navcontainer .logo {
+    padding-left: 20px;
+  }
   .info .bar {
     margin-top: 8em;
     top: -2em;
@@ -289,11 +293,33 @@ footer {
     font-size: 3em;
     color: #feeeeef8;
   }
+  .hero .navcontainer {
+    width: 100%;
+  }
+  .hero .navcontainer .burger {
+    display: none;
+  }
+  .hero .navcontainer .navlinks {
+    margin-top: 0%;
+  }
+  .hero .navcontainer .navlinks ul {
+    top: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: transparent;
+  }
+  .hero .navcontainer .navlinks ul li {
+    position: relative;
+    padding: 30px 30px;
+    left: 10em;
+  }
   .about {
     padding-bottom: 40em;
   }
   .about h1 {
-    top: 4.2em;
+    top: 5.2em;
   }
   .aboutus p {
     font-size: 1.1em;
@@ -319,6 +345,12 @@ footer {
   }
   .info .cards .weddingcard .infocard p {
     left: 1em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero .navcontainer .navlinks ul li {
+    left: 18em;
   }
 }
 /*# sourceMappingURL=styles.css.map */
