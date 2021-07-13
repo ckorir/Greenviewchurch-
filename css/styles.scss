@@ -7,6 +7,7 @@
     padding: 4px 10px;
     align-items: center;
     width: 100%;
+    transition: all 3s ease-in-out;
 
     .logo{
         margin-right: auto;
@@ -15,8 +16,14 @@
         }
     }
 
+    .burger{
+        transition: all 3s ease-in-out;
+    }
+
     .navlinks{
-      //  display: none;
+        display: none;
+        transition: all 5s ease-in-out;
+
         ul{
             background-color: #C0842B;
             position: absolute;
@@ -26,6 +33,7 @@
             right: 0px;
             display: flex;
             flex-direction: column;
+            transition: all 5s ease-in-out;
 
             li{
                 text-align: center;
@@ -322,6 +330,7 @@ footer{
             }
 
             .navlinks{
+                display: block;
                 //position: relative;
                 //width: 100%\\;
                 
