@@ -29,8 +29,6 @@ html {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  -webkit-transition: all 3s ease-in-out;
-  transition: all 3s ease-in-out;
 }
 
 .navcontainer .logo {
@@ -41,15 +39,8 @@ html {
   height: 60px;
 }
 
-.navcontainer .burger {
-  -webkit-transition: all 3s ease-in-out;
-  transition: all 3s ease-in-out;
-}
-
 .navcontainer .navlinks {
   display: none;
-  -webkit-transition: all 5s ease-in-out;
-  transition: all 5s ease-in-out;
 }
 
 .navcontainer .navlinks ul {
@@ -66,8 +57,8 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-transition: all 5s ease-in-out;
-  transition: all 5s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .navcontainer .navlinks ul li {
